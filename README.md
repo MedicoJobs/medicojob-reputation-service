@@ -4,6 +4,10 @@ This repository contains the reputation-service microservice.
 
 ## CI
 
+
+
+
+
 The CI pipeline runs SonarQube first, then Snyk.
 
 ## Docker
