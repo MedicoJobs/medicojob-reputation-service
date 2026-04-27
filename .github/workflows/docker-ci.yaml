@@ -1,9 +1,6 @@
 name: reputation-service Docker Image Pipeline
 
 on:
-  push:
-    branches:
-      - feature-branch
   pull_request:
     types:
       - closed
@@ -27,3 +24,4 @@ jobs:
       service_path: .
     secrets:
       GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITOPS_TOKEN: ${{ secrets.GITOPS_TOKEN }}
