@@ -76,6 +76,25 @@ jobs:
             ${{ steps.image.outputs.sha_tag }}
             ${{ steps.image.outputs.latest_tag }}
 
+      - name: Smoke test Docker image startup
+        shell: bash
+        run: |
+          container_id="$(docker run -d \
+            -e PORT=5006 \
+            -e MONGO_URI=mongodb://127.0.0.1:27017/reputation \
+            "${{ steps.image.outputs.sha_tag }}")"
+
+          sleep 5
+
+          if [ "$(docker inspect -f '{{.State.Running}}' "$container_id")" != "true" ]; then
+            docker logs "$container_id"
+            docker rm "$container_id"
+            exit 1
+          fi
+
+          docker logs "$container_id"
+          docker rm -f "$container_id"
+
       - name: Scan image with Trivy
         uses: aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25
         with:
