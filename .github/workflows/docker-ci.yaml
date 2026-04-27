@@ -1,13 +1,15 @@
 name: reputation-service Docker Image Pipeline
 
 on:
+  push:
+    branches:
+      - feature-branch
   pull_request:
     types:
       - closed
       - labeled
     branches:
       - main
-      - master
 
 permissions:
   contents: read

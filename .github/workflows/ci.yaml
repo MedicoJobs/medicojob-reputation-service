@@ -1,7 +1,9 @@
 name: reputation-service CI Pipeline
 
 on:
-  # Run only before merge. After merge, docker-ci.yaml owns the build pipeline.
+  push:
+    branches:
+      - feature-branch
   pull_request:
     types:
       - opened
@@ -10,9 +12,7 @@ on:
       - ready_for_review
     branches:
       - main
-      - master
   workflow_dispatch:
-
 permissions:
   contents: read
   pull-requests: read
