@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
@@ -32,11 +33,17 @@ app.use((req, res, next) => {
 
 const MONGO_URI = process.env.MONGO_URI_REPUTATION || process.env.MONGO_URI;
 
+if (!MONGO_URI) {
+  console.error('Reputation DB Connection Error: MONGO_URI_REPUTATION or MONGO_URI is required');
+  process.exit(1);
+}
+
 try {
-  await mongoose.connect(MONGO_URI);
+  await mongoose.connect(MONGO_URI, { serverSelectionTimeoutMS: 10000 });
   console.log('Reputation Service DB Connected');
 } catch (err) {
   console.error('Reputation DB Connection Error:', err);
+  process.exit(1);
 }
 
 app.post('/reviews', async (req, res) => {

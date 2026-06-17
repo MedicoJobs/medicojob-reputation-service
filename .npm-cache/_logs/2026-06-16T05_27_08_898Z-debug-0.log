@@ -1,0 +1,205 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.1.0
+2 info using node@v22.14.0
+3 silly config load:file:C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\medicojobs\medicojob-reputation-service\.npmrc
+5 silly config load:file:C:\Users\ADMIN\.npmrc
+6 silly config load:file:C:\Users\ADMIN\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".\\.npm-cache" "--no-audit" "--prefer-online"
+9 verbose logfile logs-max:10 dir:D:\medicojobs\medicojob-reputation-service\.npm-cache\_logs\2026-06-16T05_27_08_898Z-
+10 verbose logfile D:\medicojobs\medicojob-reputation-service\.npm-cache\_logs\2026-06-16T05_27_08_898Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 http fetch GET 200 https://registry.npmjs.org/side-channel-weakmap/-/side-channel-weakmap-1.0.2.tgz 3180ms (cache miss)
+16 http fetch GET 200 https://registry.npmjs.org/vary/-/vary-1.1.2.tgz 3187ms (cache miss)
+17 http fetch GET 200 https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz 3411ms (cache miss)
+18 http fetch GET 200 https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz 3488ms (cache miss)
+19 http fetch GET 200 https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz 3564ms (cache miss)
+20 http fetch GET 200 https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-7.0.0.tgz 3749ms (cache miss)
+21 http fetch GET 200 https://registry.npmjs.org/tr46/-/tr46-5.1.1.tgz 3780ms (cache miss)
+22 http fetch GET 200 https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz 4168ms (cache miss)
+23 http fetch GET 200 https://registry.npmjs.org/raw-body/-/raw-body-2.5.3.tgz 4371ms (cache miss)
+24 http fetch GET 200 https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz 4372ms (cache miss)
+25 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz 4481ms (cache miss)
+26 http fetch GET 200 https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz 4492ms (cache miss)
+27 http fetch GET 200 https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz 4564ms (cache miss)
+28 http fetch GET 200 https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz 4601ms (cache miss)
+29 http fetch GET 200 https://registry.npmjs.org/whatwg-url/-/whatwg-url-14.2.0.tgz 4779ms (cache miss)
+30 http fetch GET 200 https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.13.tgz 4805ms (cache miss)
+31 http fetch GET 200 https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.1.tgz 4848ms (cache miss)
+32 http fetch GET 200 https://registry.npmjs.org/sift/-/sift-17.1.3.tgz 4935ms (cache miss)
+33 http fetch GET 200 https://registry.npmjs.org/statuses/-/statuses-2.0.2.tgz 5047ms (cache miss)
+34 http fetch GET 200 https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 5146ms (cache miss)
+35 http fetch GET 200 https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.7.tgz 5193ms (cache miss)
+36 http fetch GET 200 https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz 5283ms (cache miss)
+37 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 5315ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/serve-static/-/serve-static-1.16.3.tgz 5321ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/on-finished/-/on-finished-2.4.1.tgz 5321ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz 5361ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz 5520ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/send/-/send-0.19.2.tgz 5650ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.3.tgz 6192ms (cache miss)
+44 http fetch GET 200 https://registry.npmjs.org/mquery/-/mquery-6.0.0.tgz 6514ms (cache miss)
+45 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 6583ms (cache miss)
+46 http fetch GET 200 https://registry.npmjs.org/mpath/-/mpath-0.9.0.tgz 6735ms (cache miss)
+47 http fetch GET 200 https://registry.npmjs.org/methods/-/methods-1.1.2.tgz 6798ms (cache miss)
+48 http fetch GET 200 https://registry.npmjs.org/mongodb-connection-string-url/-/mongodb-connection-string-url-7.0.1.tgz 6800ms (cache miss)
+49 http fetch GET 200 https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 6849ms (cache miss)
+50 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 7018ms (cache miss)
+51 http fetch GET 200 https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz 7205ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 7565ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/hasown/-/hasown-2.0.3.tgz 7683ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.4.tgz 8465ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz 8914ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/http-errors/-/http-errors-2.0.1.tgz 8962ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 9214ms (cache miss)
+58 http fetch GET 200 https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 9237ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/memory-pager/-/memory-pager-1.5.0.tgz 9280ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz 9439ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz 9796ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/forwarded/-/forwarded-0.2.0.tgz 9884ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/kareem/-/kareem-3.3.0.tgz 9983ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/etag/-/etag-1.8.1.tgz 10113ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz 10963ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/npm 11608ms
+67 http fetch GET 200 https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz 11419ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/finalhandler/-/finalhandler-1.3.2.tgz 11441ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.3.0.tgz 11442ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 11533ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz 11543ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/encodeurl/-/encodeurl-2.0.0.tgz 11734ms (cache miss)
+73 http fetch GET 200 https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.1.1.tgz 11777ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 11813ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/destroy/-/destroy-1.2.0.tgz 12351ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/dunder-proto/-/dunder-proto-1.0.1.tgz 12356ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.7.tgz 12527ms (cache miss)
+78 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 12650ms (cache miss)
+79 http fetch GET 200 https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz 12793ms (cache miss)
+80 http fetch GET 200 https://registry.npmjs.org/cors/-/cors-2.8.6.tgz 12836ms (cache miss)
+81 http fetch GET 200 https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz 12842ms (cache miss)
+82 http fetch GET 200 https://registry.npmjs.org/express/-/express-4.22.1.tgz 12865ms (cache miss)
+83 http fetch GET 200 https://registry.npmjs.org/depd/-/depd-2.0.0.tgz 13033ms (cache miss)
+84 http fetch GET 200 https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz 13339ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz 13524ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/call-bound/-/call-bound-1.0.4.tgz 13706ms (cache miss)
+87 http fetch GET 200 https://registry.npmjs.org/body-parser/-/body-parser-1.20.4.tgz 13846ms (cache miss)
+88 http fetch GET 200 https://registry.npmjs.org/@types/whatwg-url/-/whatwg-url-13.0.0.tgz 13848ms (cache miss)
+89 http fetch GET 200 https://registry.npmjs.org/@types/webidl-conversions/-/webidl-conversions-7.0.3.tgz 13968ms (cache miss)
+90 http fetch GET 200 https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz 14154ms (cache miss)
+91 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 14261ms (cache miss)
+92 http fetch GET 200 https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz 14506ms (cache miss)
+93 http fetch GET 200 https://registry.npmjs.org/bytes/-/bytes-3.1.2.tgz 14608ms (cache miss)
+94 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 14745ms (cache miss)
+95 http fetch GET 200 https://registry.npmjs.org/dotenv/-/dotenv-17.4.2.tgz 15062ms (cache miss)
+96 http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz 15058ms (cache miss)
+97 http fetch GET 200 https://registry.npmjs.org/@mongodb-js/saslprep/-/saslprep-1.4.8.tgz 15152ms (cache miss)
+98 http fetch GET 200 https://registry.npmjs.org/get-proto/-/get-proto-1.0.1.tgz 15555ms (cache miss)
+99 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 15577ms (cache miss)
+100 http fetch GET 200 https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.4.tgz 15658ms (cache miss)
+101 http fetch GET 200 https://registry.npmjs.org/mongoose/-/mongoose-9.5.0.tgz 18929ms (cache miss)
+102 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.14.2.tgz 20712ms (cache miss)
+103 http fetch GET 200 https://registry.npmjs.org/mongodb/-/mongodb-7.1.1.tgz 26847ms (cache miss)
+104 http fetch GET 200 https://registry.npmjs.org/bson/-/bson-7.2.0.tgz 27233ms (cache miss)
+105 silly ADD node_modules/whatwg-url
+106 silly ADD node_modules/webidl-conversions
+107 silly ADD node_modules/vary
+108 silly ADD node_modules/utils-merge
+109 silly ADD node_modules/unpipe
+110 silly ADD node_modules/type-is
+111 silly ADD node_modules/tr46
+112 silly ADD node_modules/toidentifier
+113 silly ADD node_modules/statuses
+114 silly ADD node_modules/sparse-bitfield
+115 silly ADD node_modules/sift
+116 silly ADD node_modules/side-channel-weakmap
+117 silly ADD node_modules/side-channel-map
+118 silly ADD node_modules/side-channel-list
+119 silly ADD node_modules/side-channel
+120 silly ADD node_modules/setprototypeof
+121 silly ADD node_modules/serve-static
+122 silly ADD node_modules/send
+123 silly ADD node_modules/send/node_modules/ms
+124 silly ADD node_modules/safer-buffer
+125 silly ADD node_modules/safe-buffer
+126 silly ADD node_modules/raw-body
+127 silly ADD node_modules/range-parser
+128 silly ADD node_modules/qs
+129 silly ADD node_modules/punycode
+130 silly ADD node_modules/proxy-addr
+131 silly ADD node_modules/path-to-regexp
+132 silly ADD node_modules/parseurl
+133 silly ADD node_modules/on-finished
+134 silly ADD node_modules/object-inspect
+135 silly ADD node_modules/object-assign
+136 silly ADD node_modules/negotiator
+137 silly ADD node_modules/ms
+138 silly ADD node_modules/mquery
+139 silly ADD node_modules/mpath
+140 silly ADD node_modules/mongoose
+141 silly ADD node_modules/mongoose/node_modules/ms
+142 silly ADD node_modules/mongodb-connection-string-url
+143 silly ADD node_modules/mongodb
+144 silly ADD node_modules/mime-types
+145 silly ADD node_modules/mime-db
+146 silly ADD node_modules/mime
+147 silly ADD node_modules/methods
+148 silly ADD node_modules/merge-descriptors
+149 silly ADD node_modules/memory-pager
+150 silly ADD node_modules/media-typer
+151 silly ADD node_modules/math-intrinsics
+152 silly ADD node_modules/kareem
+153 silly ADD node_modules/ipaddr.js
+154 silly ADD node_modules/inherits
+155 silly ADD node_modules/iconv-lite
+156 silly ADD node_modules/http-errors
+157 silly ADD node_modules/hasown
+158 silly ADD node_modules/has-symbols
+159 silly ADD node_modules/gopd
+160 silly ADD node_modules/get-proto
+161 silly ADD node_modules/get-intrinsic
+162 silly ADD node_modules/function-bind
+163 silly ADD node_modules/fresh
+164 silly ADD node_modules/forwarded
+165 silly ADD node_modules/finalhandler
+166 silly ADD node_modules/express
+167 silly ADD node_modules/etag
+168 silly ADD node_modules/escape-html
+169 silly ADD node_modules/es-object-atoms
+170 silly ADD node_modules/es-errors
+171 silly ADD node_modules/es-define-property
+172 silly ADD node_modules/encodeurl
+173 silly ADD node_modules/ee-first
+174 silly ADD node_modules/dunder-proto
+175 silly ADD node_modules/dotenv
+176 silly ADD node_modules/destroy
+177 silly ADD node_modules/depd
+178 silly ADD node_modules/debug
+179 silly ADD node_modules/cors
+180 silly ADD node_modules/cookie-signature
+181 silly ADD node_modules/cookie
+182 silly ADD node_modules/content-type
+183 silly ADD node_modules/content-disposition
+184 silly ADD node_modules/call-bound
+185 silly ADD node_modules/call-bind-apply-helpers
+186 silly ADD node_modules/bytes
+187 silly ADD node_modules/bson
+188 silly ADD node_modules/body-parser
+189 silly ADD node_modules/array-flatten
+190 silly ADD node_modules/accepts
+191 silly ADD node_modules/@types/whatwg-url
+192 silly ADD node_modules/@types/webidl-conversions
+193 silly ADD node_modules/@mongodb-js/saslprep
+194 verbose cwd D:\medicojobs\medicojob-reputation-service
+195 verbose os Windows_NT 10.0.22631
+196 verbose node v22.14.0
+197 verbose npm  v11.1.0
+198 notice
+198 notice New minor version of npm available! 11.1.0 -> 11.17.0
+198 notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+198 notice To update run: npm install -g npm@11.17.0
+198 notice  { force: true, [Symbol(proc-log.meta)]: true }
+199 verbose exit 0
+200 info ok
