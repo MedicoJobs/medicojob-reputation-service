@@ -1,4 +1,4 @@
-﻿name: Build and Deploy Image - medicojob-reputation-service
+name: Build and Deploy Image - medicojob-reputation-service
 
 
 on:
@@ -19,7 +19,7 @@ env:
   SERVICE_NAME: medicojob-reputation-service
   HELM_REPOSITORY: ${{ vars.HELM_REPOSITORY || 'MedicoJobs/Helm' }}
   INFRA_BRANCH: ${{ vars.INFRA_BRANCH || 'main' }}
-  HELM_VALUES_FILE: apps/frontend/values.yaml
+  HELM_VALUES_FILE: apps/reputation-service/values.yaml
   HELM_REPO_TOKEN: ${{ secrets.GITOPS_TOKEN }}
 
 jobs:
