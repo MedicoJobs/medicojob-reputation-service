@@ -43,7 +43,6 @@ try {
   console.log('Reputation Service DB Connected');
 } catch (err) {
   console.error('Reputation DB Connection Error:', err);
-  process.exit(1);
 }
 
 app.post('/reviews', async (req, res) => {
